@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, SystemEvent, EventTarget, EventTouch, misc, error ,Vec2, director} from 'cc';
-import { TouchEventType } from './framework/Constant';
-import { GameManager } from './framework/GameManager';
+import { TouchEventType } from '../framework/Constant';
+import { GameManager } from '../framework/GameManager';
 const { ccclass, property } = _decorator;
 const eventTarget = new EventTarget();
 

@@ -1,5 +1,5 @@
 import { _decorator, Component, Node, EventTarget, director, Vec2, warn, Prefab, instantiate, UITransform, SpriteFrame, Sprite, v2, find } from 'cc';
-import { AudioManager } from '../AudioManager';
+import { AudioManager } from './AudioManager';
 import { config } from './config';
 import { ItemColor, TouchEventType } from './Constant';
 const { ccclass, property } = _decorator;
